@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0b14" />
+    <meta name="description" content="Hololive RNG — 霓虹星際街機收藏抽卡台" />
+    <title>Hololive RNG — 星際抽卡台</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="space-noise" aria-hidden="true"></div>
+    <div class="stars stars-a" aria-hidden="true"></div>
+    <div class="stars stars-b" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="回到 Hololive RNG 首頁">
+        <span class="brand-mark"><span>H</span><i>✦</i></span>
+        <span class="brand-copy"><strong>HOLO</strong><em>/ RNG</em><small>CELESTIAL COLLECTION LAB</small></span>
+      </a>
+      <div class="topbar-actions">
+        <span class="save-state"><i class="status-dot"></i><span id="saveStatus">本機進度已保存</span></span>
+        <button class="icon-button" id="resetButton" type="button" aria-label="重置全部進度" title="重置全部進度">↺</button>
+      </div>
+    </header>
+
+    <main id="top" class="app-shell">
+      <section class="hero-intro" aria-labelledby="pageTitle">
+        <div>
+          <p class="eyebrow"><span class="pulse-line"></span> SYSTEM ONLINE / 2026.10.03</p>
+          <h1 id="pageTitle">把今日的<br /><span>星光抽出來。</span></h1>
+          <p class="hero-copy">一座為 Hololive 粉絲打造的高回饋收藏抽卡台。<br class="desktop-only" />每一次點擊，都可能鎖定下一顆稀有訊號。</p>
+        </div>
+        <div class="hero-orbit" aria-hidden="true">
+          <span class="orbit-ring ring-one"></span><span class="orbit-ring ring-two"></span><span class="orbit-core">✦</span>
+          <span class="orbit-label label-top">RNG / 01</span><span class="orbit-label label-bottom">SIGNAL LOCKED</span>
+        </div>
+      </section>
+
+      <section class="dashboard-grid" aria-label="遊戲主控制台">
+        <aside class="side-panel progress-panel panel">
+          <div class="panel-kicker"><span>01</span><span>COLLECTION STATUS</span></div>
+          <div class="progress-heading"><span>收藏進度</span><strong id="progressPercent">0.0%</strong></div>
+          <div class="progress-track"><span id="progressBar"></span></div>
+          <div class="progress-meta"><span><b id="ownedCount">0</b> 已獲得</span><span>/ <b id="totalCount">75</b> 位成員</span></div>
+          <div class="mini-stats">
+            <div><span>總抽取</span><strong id="drawCount">0</strong></div>
+            <div><span>已發現</span><strong id="discoveredCount">0</strong></div>
+          </div>
+          <div class="rarity-list" id="raritySummary" aria-label="稀有度統計"></div>
+          <p class="panel-note">收集全部訊號，解鎖你的<br /><b>HOLO 星圖。</b></p>
+        </aside>
+
+        <section class="draw-stage panel" aria-labelledby="drawTitle">
+          <div class="stage-header">
+            <div class="panel-kicker"><span>02</span><span>RNG CONTROL DECK</span></div>
+            <span class="live-chip"><i></i> LIVE DRAW</span>
+          </div>
+          <div class="stage-intro">
+            <h2 id="drawTitle">下一個訊號，<span>會是誰？</span></h2>
+            <p>目前池：<b>HOLOLIVE ALL STARS</b> <span class="slash">/</span> <b id="poolCount">75</b> SIGNALS</p>
+          </div>
+          <div class="result-wrap" id="resultWrap">
+            <div class="result-card empty" id="resultCard" aria-live="polite">
+              <div class="result-scanline"></div>
+              <div class="result-placeholder"><span class="placeholder-star">✦</span><strong>READY TO ROLL</strong><small>按下抽取，啟動星圖掃描</small></div>
+            </div>
+            <div class="rarity-burst" id="rarityBurst" aria-hidden="true"></div>
+          </div>
+          <div class="draw-controls">
+            <button class="draw-button" id="drawButton" type="button"><span class="draw-icon">✦</span><span><b>抽取訊號</b><small>ROLL 01 / 開始抽卡</small></span><span class="button-arrow">↗</span></button>
+            <button class="ten-button" id="tenButton" type="button"><span>×10</span> 十連衝刺</button>
+          </div>
+          <div class="odds-strip"><span>稀有度機率</span><div><b class="rarity-text mythic-text">MYTHIC 0.8%</b><b class="rarity-text legendary-text">LEGENDARY 4%</b><b class="rarity-text epic-text">EPIC 12%</b><b class="rarity-text rare-text">RARE 28%</b><b class="rarity-text common-text">COMMON 55%</b></div></div>
+        </section>
+
+        <aside class="side-panel history-panel panel">
+          <div class="panel-kicker"><span>03</span><span>RECENT SIGNALS</span></div>
+          <div class="history-heading"><h2>最近紀錄</h2><span id="historyCount">0 / 20</span></div>
+          <div class="history-list" id="historyList"><div class="history-empty"><span>◌</span><p>還沒有訊號<br />你的第一抽會出現在這裡</p></div></div>
+          <button class="text-button" id="scrollCollection" type="button">瀏覽完整圖鑑 <span>↓</span></button>
+        </aside>
+      </section>
+
+      <section class="collection-section" id="collection" aria-labelledby="collectionTitle">
+        <div class="section-heading"><div><p class="eyebrow"><span class="pulse-line"></span> ARCHIVE / HOLOVERSE</p><h2 id="collectionTitle">角色圖鑑 <span>．</span> <small id="collectionSubline">0 / 75 已解鎖</small></h2></div><div class="section-decoration">✦ <span>SYNCED TO LOCAL</span></div></div>
+        <div class="collection-toolbar"><div class="filter-tabs" role="tablist" aria-label="圖鑑篩選"><button class="filter-tab active" data-filter="all" role="tab" type="button">全部 <span id="allTabCount">75</span></button><button class="filter-tab" data-filter="owned" role="tab" type="button">已獲得 <span id="ownedTabCount">0</span></button><button class="filter-tab" data-filter="missing" role="tab" type="button">待解鎖 <span id="missingTabCount">75</span></button></div><label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="搜尋成員名稱…" autocomplete="off" /></label></div>
+        <div class="collection-grid" id="collectionGrid"></div>
+      </section>
+
+      <section class="stats-section" id="stats" aria-labelledby="statsTitle">
+        <div class="section-heading"><div><p class="eyebrow"><span class="pulse-line"></span> TELEMETRY / YOUR RNG</p><h2 id="statsTitle">抽卡數據 <span>．</span> <small>你的星圖分析</small></h2></div></div>
+        <div class="stats-grid"><div class="stat-card"><span>最稀有掉落</span><strong id="bestDrop">—</strong><small id="bestDropMeta">尚未鎖定</small></div><div class="stat-card"><span>最高連續重複</span><strong id="duplicateStreak">0</strong><small>次重複訊號</small></div><div class="stat-card"><span>解鎖效率</span><strong id="efficiency">—</strong><small>每 10 抽的新成員</small></div><div class="stat-card stat-card-wide"><span>掉落分布</span><div class="distribution" id="distribution"></div></div></div>
+      </section>
+    </main>
+
+    <footer class="footer"><span>HOLO / RNG</span><span>FAN-MADE COLLECTION INTERFACE · LOCAL ONLY</span><span>↗ 2026</span></footer>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="./app.js" defer></script>
+  </body>
+</html>

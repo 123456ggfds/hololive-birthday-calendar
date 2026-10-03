@@ -1,0 +1,452 @@
+[
+  {
+    "id": "hololive-001",
+    "name": "ワトソン・アメリア",
+    "english": "Watson Amelia",
+    "birthday": "01/06"
+  },
+  {
+    "id": "hololive-002",
+    "name": "兎田ぺこら",
+    "english": "Usada Pekora",
+    "birthday": "01/12"
+  },
+  {
+    "id": "hololive-003",
+    "name": "アユンダ・リス",
+    "english": "Ayunda Risu",
+    "birthday": "01/15"
+  },
+  {
+    "id": "hololive-004",
+    "name": "潤羽るしあ",
+    "english": "Uruha Rushia",
+    "birthday": "01/22"
+  },
+  {
+    "id": "hololive-005",
+    "name": "尾丸ポルカ",
+    "english": "Omaru Polka",
+    "birthday": "01/30"
+  },
+  {
+    "id": "hololive-006",
+    "name": "フワワ・アビスガード",
+    "english": "Fuwawa Abyssgard",
+    "birthday": "02/01"
+  },
+  {
+    "id": "hololive-007",
+    "name": "モココ・アビスガード",
+    "english": "Mococo Abyssgard",
+    "birthday": "02/02"
+  },
+  {
+    "id": "hololive-008",
+    "name": "儒烏風亭らでん",
+    "english": "Juufuutei Raden",
+    "birthday": "02/04"
+  },
+  {
+    "id": "hololive-009",
+    "name": "癒月ちょこ",
+    "english": "Yuzuki Choco",
+    "birthday": "02/14"
+  },
+  {
+    "id": "hololive-010",
+    "name": "ムーナ・ホシノヴァ",
+    "english": "Moona Hoshinova",
+    "birthday": "02/15"
+  },
+  {
+    "id": "hololive-011",
+    "name": "アキ・ローゼンタール",
+    "english": "Aki Rosenthal",
+    "birthday": "02/17"
+  },
+  {
+    "id": "hololive-012",
+    "name": "猫又おかゆ",
+    "english": "Nekomata Okayu",
+    "birthday": "02/22"
+  },
+  {
+    "id": "hololive-013",
+    "name": "火威青",
+    "english": "Hiodoshi Ao",
+    "birthday": "02/27"
+  },
+  {
+    "id": "hololive-014",
+    "name": "ハコス・ベールズ",
+    "english": "Hakos Baelz",
+    "birthday": "02/29"
+  },
+  {
+    "id": "hololive-015",
+    "name": "桃鈴ねね",
+    "english": "Momosuzu Nene",
+    "birthday": "03/02"
+  },
+  {
+    "id": "hololive-016",
+    "name": "さくらみこ",
+    "english": "Sakura Miko",
+    "birthday": "03/05"
+  },
+  {
+    "id": "hololive-017",
+    "name": "IRyS",
+    "english": "IRyS",
+    "birthday": "03/07"
+  },
+  {
+    "id": "hololive-018",
+    "name": "アーニャ・メルフィッサ",
+    "english": "Anya Melfissa",
+    "birthday": "03/12"
+  },
+  {
+    "id": "hololive-019",
+    "name": "オーロ・クロニー",
+    "english": "Ouro Kronii",
+    "birthday": "03/14"
+  },
+  {
+    "id": "hololive-020",
+    "name": "博衣こより",
+    "english": "Hakui Koyori",
+    "birthday": "03/15"
+  },
+  {
+    "id": "hololive-021",
+    "name": "セレス・ファウナ",
+    "english": "Ceres Fauna",
+    "birthday": "03/21"
+  },
+  {
+    "id": "hololive-022",
+    "name": "星街すいせい",
+    "english": "Hoshimachi Suisei",
+    "birthday": "03/22"
+  },
+  {
+    "id": "hololive-023",
+    "name": "不知火フレア",
+    "english": "Shiranui Flare",
+    "birthday": "04/02"
+  },
+  {
+    "id": "hololive-024",
+    "name": "森カリオペ",
+    "english": "Mori Calliope",
+    "birthday": "04/04"
+  },
+  {
+    "id": "hololive-025",
+    "name": "古石ビジュー",
+    "english": "Koseki Bijou",
+    "birthday": "04/14"
+  },
+  {
+    "id": "hololive-026",
+    "name": "音乃瀬奏",
+    "english": "Otonose Kanade",
+    "birthday": "04/20"
+  },
+  {
+    "id": "hololive-027",
+    "name": "天音かなた",
+    "english": "Amane Kanata",
+    "birthday": "04/22"
+  },
+  {
+    "id": "hololive-028",
+    "name": "エリザベス・ローズ・ブラッドフレイム",
+    "english": "Elizabeth Rose Bloodflame",
+    "birthday": "04/25"
+  },
+  {
+    "id": "hololive-029",
+    "name": "シオリ・ノヴェラ",
+    "english": "Shiori Novella",
+    "birthday": "05/02"
+  },
+  {
+    "id": "hololive-030",
+    "name": "ラオーラ・パンテーラ",
+    "english": "Raora Panthera",
+    "birthday": "05/11"
+  },
+  {
+    "id": "hololive-031",
+    "name": "一条莉々華",
+    "english": "Ichijou Ririka",
+    "birthday": "05/12"
+  },
+  {
+    "id": "hololive-032",
+    "name": "ときのそら",
+    "english": "Tokino Sora",
+    "birthday": "05/15"
+  },
+  {
+    "id": "hololive-033",
+    "name": "沙花叉クロヱ",
+    "english": "Sakamata Chloe",
+    "birthday": "05/18"
+  },
+  {
+    "id": "hololive-034",
+    "name": "一伊那尓栖",
+    "english": "Ninomae Ina'nis",
+    "birthday": "05/20"
+  },
+  {
+    "id": "hololive-035",
+    "name": "ロボ子さん",
+    "english": "Robocosan",
+    "birthday": "05/23"
+  },
+  {
+    "id": "hololive-036",
+    "name": "ラプラス・ダークネス",
+    "english": "La+ Darknesss",
+    "birthday": "05/25"
+  },
+  {
+    "id": "hololive-037",
+    "name": "響咲リオナ",
+    "english": "Isaki Riona",
+    "birthday": "05/29"
+  },
+  {
+    "id": "hololive-038",
+    "name": "角巻わため",
+    "english": "Tsunomaki Watame",
+    "birthday": "06/06"
+  },
+  {
+    "id": "hololive-039",
+    "name": "轟はじめ",
+    "english": "Todoroki Hajime",
+    "birthday": "06/07"
+  },
+  {
+    "id": "hololive-040",
+    "name": "九十九佐命",
+    "english": "Tsukumo Sana",
+    "birthday": "06/10"
+  },
+  {
+    "id": "hololive-041",
+    "name": "鷹嶺ルイ",
+    "english": "Takane Lui",
+    "birthday": "06/11"
+  },
+  {
+    "id": "hololive-042",
+    "name": "水宮枢",
+    "english": "Mizumiya Su",
+    "birthday": "06/16"
+  },
+  {
+    "id": "hololive-043",
+    "name": "桐生ココ",
+    "english": "Kiryu Coco",
+    "birthday": "06/17"
+  },
+  {
+    "id": "hololive-044",
+    "name": "風真いろは",
+    "english": "Kazama Iroha",
+    "birthday": "06/18"
+  },
+  {
+    "id": "hololive-045",
+    "name": "がうる・ぐら",
+    "english": "Gawr Gura",
+    "birthday": "06/20"
+  },
+  {
+    "id": "hololive-046",
+    "name": "AZKi",
+    "english": "AZKi",
+    "birthday": "07/01"
+  },
+  {
+    "id": "hololive-047",
+    "name": "大空スバル",
+    "english": "Oozora Subaru",
+    "birthday": "07/02"
+  },
+  {
+    "id": "hololive-048",
+    "name": "小鳥遊キアラ",
+    "english": "Takanashi Kiara",
+    "birthday": "07/06"
+  },
+  {
+    "id": "hololive-049",
+    "name": "輪堂千速",
+    "english": "Rindo Chihaya",
+    "birthday": "07/08"
+  },
+  {
+    "id": "hololive-050",
+    "name": "アイラニ・イオフィフティーン",
+    "english": "Airani Iofifteen",
+    "birthday": "07/15"
+  },
+  {
+    "id": "hololive-051",
+    "name": "夏色まつり",
+    "english": "Natsuiro Matsuri",
+    "birthday": "07/22"
+  },
+  {
+    "id": "hololive-052",
+    "name": "虎金妃笑虎",
+    "english": "Koganei Niko",
+    "birthday": "07/25"
+  },
+  {
+    "id": "hololive-053",
+    "name": "宝鐘マリン",
+    "english": "Houshou Marine",
+    "birthday": "07/30"
+  },
+  {
+    "id": "hololive-054",
+    "name": "七詩ムメイ",
+    "english": "Nanashi Mumei",
+    "birthday": "08/04"
+  },
+  {
+    "id": "hololive-055",
+    "name": "常闇トワ",
+    "english": "Tokoyami Towa",
+    "birthday": "08/08"
+  },
+  {
+    "id": "hololive-056",
+    "name": "赤井はあと",
+    "english": "Akai Haato",
+    "birthday": "08/10"
+  },
+  {
+    "id": "hololive-057",
+    "name": "大神ミオ",
+    "english": "Ookami Mio",
+    "birthday": "08/20"
+  },
+  {
+    "id": "hololive-058",
+    "name": "綺々羅々ヴィヴィ",
+    "english": "Kikirara Vivi",
+    "birthday": "08/27"
+  },
+  {
+    "id": "hololive-059",
+    "name": "カエラ・コヴァルスキア",
+    "english": "Kaela Kovalskia",
+    "birthday": "08/30"
+  },
+  {
+    "id": "hololive-060",
+    "name": "獅白ぼたん",
+    "english": "Shishiro Botan",
+    "birthday": "09/08"
+  },
+  {
+    "id": "hololive-061",
+    "name": "パヴォリア・レイネ",
+    "english": "Pavolia Reine",
+    "birthday": "09/09"
+  },
+  {
+    "id": "hololive-062",
+    "name": "戌神ころね",
+    "english": "Inugami Korone",
+    "birthday": "10/01"
+  },
+  {
+    "id": "hololive-063",
+    "name": "白上フブキ",
+    "english": "Shirakami Fubuki",
+    "birthday": "10/05"
+  },
+  {
+    "id": "hololive-064",
+    "name": "姫森ルーナ",
+    "english": "Himemori Luna",
+    "birthday": "10/10"
+  },
+  {
+    "id": "hololive-065",
+    "name": "クレイジー・オリー",
+    "english": "Kureiji Ollie",
+    "birthday": "10/13"
+  },
+  {
+    "id": "hololive-066",
+    "name": "ジジ・ムリン",
+    "english": "Gigi Murin",
+    "birthday": "10/18"
+  },
+  {
+    "id": "hololive-067",
+    "name": "ベスティア・ゼータ",
+    "english": "Vestia Zeta",
+    "birthday": "11/07"
+  },
+  {
+    "id": "hololive-068",
+    "name": "セシリア・イマーグリーン",
+    "english": "Cecilia Immergreen",
+    "birthday": "11/11"
+  },
+  {
+    "id": "hololive-069",
+    "name": "雪花ラミィ",
+    "english": "Yukihana Lamy",
+    "birthday": "11/15"
+  },
+  {
+    "id": "hololive-070",
+    "name": "ネリッサ・レイヴンクロフト",
+    "english": "Nerissa Ravencroft",
+    "birthday": "11/21"
+  },
+  {
+    "id": "hololive-071",
+    "name": "白銀ノエル",
+    "english": "Shirogane Noel",
+    "birthday": "11/24"
+  },
+  {
+    "id": "hololive-072",
+    "name": "湊あくあ",
+    "english": "Minato Aqua",
+    "birthday": "12/01"
+  },
+  {
+    "id": "hololive-073",
+    "name": "紫咲シオン",
+    "english": "Murasaki Shion",
+    "birthday": "12/08"
+  },
+  {
+    "id": "hololive-074",
+    "name": "こぼ・かなえる",
+    "english": "Kobo Kanaeru",
+    "birthday": "12/12"
+  },
+  {
+    "id": "hololive-075",
+    "name": "百鬼あやめ",
+    "english": "Nakiri Ayame",
+    "birthday": "12/13"
+  }
+]
